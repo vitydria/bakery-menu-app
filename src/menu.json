@@ -1,0 +1,148 @@
+{
+  "breakfast": [
+    {
+      "name": "Arepa rellena",
+      "desc": "Pollo, carne, pernil",
+      "price": "3$ o 11100cop",
+      "img": "./arepa.jpg"
+    },
+    {
+      "name": "Empanadas",
+      "desc": "Pollo, carne, pernil",
+      "price": "1.14$ o 4200cop",
+      "img": "./empanadas.jpg"
+    },
+    {
+      "name": "Pasteles",
+      "desc": "Pollo, queso, arroz con carne",
+      "price": "1.14$ o 4200cop",
+      "img": "./pasteles.jpg"
+    },
+    {
+      "name": "Caldo de papa",
+      "desc": "2 mini arepas, porción de nata, y aguacate",
+      "price": "6$ o 22200cop",
+      "img": "./caldo.png"
+    },
+    {
+      "name": "Huevos revueltos con jamón y queso",
+      "desc": "arepas, porción de nata, y aguacate",
+      "price": "6$ o 22200cop",
+      "img": "./huevos.jpg"
+    },
+    {
+      "name": "Omelette con jamón y queso",
+      "desc": "arepas, porción de nata, y aguacate",
+      "price": "6$ o 22200cop",
+      "img": "./ome.jpg"
+    },
+    {
+      "name": "Desayuno tipo americano",
+      "desc": "Huevos fritos, tocineta, porción de nata, y aguacate",
+      "price": "6$ o 22200cop",
+      "img": "./americano.jpeg"
+    },
+    {
+      "name": "Servicio de cochino frito",
+      "desc": "2 mini arepas, porción de nata, y aguacate",
+      "price": "6$ o 22200cop",
+      "img": "./cochino.jpg"
+    }
+  ],
+  "lunch": [
+    {
+      "name": "Milanesa de carne",
+      "desc": "Diferentes topping, acompañada por el contorno del día",
+      "price": "10$ o 37000cop",
+      "img": "./mila.jpg"
+    },
+    {
+      "name": "Milanesa de pollo",
+      "desc": "Diferentes topping, acompañada por el contorno del día",
+      "price": "10$ o 37000cop",
+      "img": "./mila2.jpg"
+    },
+    {
+      "name": "Hamburguesa Carabobo",
+      "desc": "Milanesa de pollo o carne, vegetales, huevos, jamón, queso, tocineta, aguacate, salsa tartara, acompañado de papas a la francesa",
+      "price": "",
+      "img": "./burguer.png"
+    }
+  ],
+  "meal": [
+    {
+      "name": "Cachito",
+      "desc": "Jamón, jamón y queso",
+      "price": "1.76$ o 6500cop",
+      "img": "./cachito.jpg"
+    },
+    {
+      "name": "Hojaldre",
+      "desc": "Jamón y queso, queso, pollo",
+      "price": "1.76$ o 6500cop",
+      "img": "./hojaldre.jpg"
+    },
+    {
+      "name": "Sandwich",
+      "desc": "Jamon, queso, y vegetales (tomate y lechuga), salsa de su preferencia (rosada, tartara, o tomate)",
+      "price": "2.33$ o 8300cop",
+      "img": "./jamon.jpg"
+    },
+    {
+      "name": "Sandwich",
+      "desc": "Carne, pollo o pernil, jamón y queso, vegetales (tomate y lechuga), salsa de su preferencia (rosada, tartara, o tomate)",
+      "price": "4.73$ o 17500cop",
+      "img": "./sandwich.jpg"
+    },
+    {
+      "name": "Submarino",
+      "desc": "Jamón, queso, y vegetales (tomate y lechuga), salsa de su preferencia (rosada, tartara, o tomate)",
+      "price": "3.52$ o 13000cop",
+      "img": "./sub.jpg"
+    },
+    {
+      "name": "Submarino",
+      "desc": "Carne, pollo, o pernil, vegetales (tomate y lechuga), salsa de su preferencia (rosada, tartara, o tomate)",
+      "price": "4.73$ o 17500cop",
+      "img": "./sub-esp.jpg"
+    },
+    {
+      "name": "Croissant",
+      "desc": "Jamón, queso, y vegetales (tomate y lechuga), salsa de su preferencia (rosada, tartara o tomate)",
+      "price": "2.33$ o 8600cop",
+      "img": "./cro.jpg"
+    },
+    {
+      "name": "Croissant especial",
+      "desc": "Queso crema, queso crema y pavo, champiñones y queso crema",
+      "price": "2$ o 7400cop",
+      "img": "./cru.jpg"
+    }
+  ],
+  "drinks": [
+    {
+      "name": "Jugos naturales",
+      "desc": "Mora, fresa, lechoza, naranja, piña, melón, y mango",
+      "price": "1.57$ o 5800cop",
+      "img": "./naturales.jpeg"
+    },
+    {
+      "name": "Merengadas",
+      "desc": "Mora, fresa, lechoza, naranja, piña, melón, y mango",
+      "price": "1.80$ o 6600cop",
+      "img": "./merengadas.jpg"
+    },
+    {
+      "name": "Jugos verdes",
+      "desc": "",
+      "price": "1.80$ o 6600cop",
+      "img": "./verdes.jpg"
+    },
+    {
+      "name": "Refresco de lata",
+      "desc": "",
+      "price": "1$ o 3700cop",
+      "img": "./coca.jpg"
+    }
+  ]
+}

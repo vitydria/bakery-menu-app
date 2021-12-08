@@ -1,0 +1,34 @@
+@media (min-width: 1201px) {
+  .menu-header {
+    padding: 25px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin: none;
+    background: #ffffffe1;
+    color: rgb(165, 112, 15);
+    font-size: 30px;
+  }
+}
+@media (max-width: 600px) {
+  .menu-header {
+    padding: 10px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin: none;
+    background: #ffffffe1;
+    color: rgb(165, 112, 15);
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+  .menu-header {
+    padding: 10px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin: none;
+    background: #ffffffe1;
+    color: rgb(165, 112, 15);
+    font-size: 25px;
+  }
+}

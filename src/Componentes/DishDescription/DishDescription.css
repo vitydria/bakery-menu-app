@@ -1,0 +1,200 @@
+@media (min-width: 1201px) {
+  .description {
+    padding: 15px 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    align-self: flex-end;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width: max-content;
+  }
+
+  .nav-ul-desc {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .nav-li-desc {
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-family: "Amatic SC";
+    font-weight: bold;
+    color: rgb(95, 57, 8);
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .closeButton {
+    line-height: 12px;
+    width: 20px;
+    height: 20px;
+    width: auto;
+    font-size: 8pt;
+    font-family: tahoma;
+    margin: 0;
+    padding: 0;
+    float: right;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(209, 16, 16);
+    border-radius: 100%;
+    border-width: 0;
+  }
+
+  .i-button-size {
+    font-size: 25px;
+  }
+
+  .img-description {
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .img-description:hover {
+    box-shadow: 0 0 3px 2px rgb(252, 227, 1);
+  }
+}
+
+@media (max-width: 600px) {
+  .description {
+    padding: 1px 2px;
+    margin-top: 50px;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 8px;
+  }
+
+  .nav-ul-desc {
+    padding-top: 1px;
+    padding-bottom: 0.5px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .nav-li-desc {
+    list-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    font-family: "Amatic SC";
+    font-weight: bold;
+    color: rgb(119, 72, 11);
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .closeButton {
+    font-size: 2pt;
+    font-family: tahoma;
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    background-color: rgba(245, 243, 243, 0);
+    color: red;
+    border-radius: 100%;
+    border-width: 0;
+  }
+
+  .i-button-size {
+    font-size: 18px;
+  }
+
+  .img-description {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img-description:hover {
+    box-shadow: 0 0 3px 2px rgb(252, 227, 1);
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+  .description {
+    padding: 1px 2px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 8px;
+  }
+
+  .nav-ul-desc {
+    padding-top: 1px;
+    padding-bottom: 0.5px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .nav-li-desc {
+    list-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: "Amatic SC";
+    font-weight: bold;
+    color: rgb(248, 248, 247);
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .closeButton {
+    line-height: 5px;
+    width: 3px;
+    height: 5;
+    width: auto;
+    font-size: 2pt;
+    font-family: tahoma;
+    margin-top: 0.5px;
+    margin-right: 1px;
+    float: right;
+    top: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0);
+    color: red;
+    border-radius: 100%;
+    border-width: 0;
+  }
+
+  .img-description {
+    border-radius: 100%;
+    width: 230px;
+    height: 230px;
+  }
+
+  .img-description:hover {
+    box-shadow: 0 0 3px 2px rgb(252, 227, 1);
+  }
+
+  .i-button-size {
+    font-size: 18px;
+  }
+}

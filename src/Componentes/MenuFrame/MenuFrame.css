@@ -1,0 +1,140 @@
+@media (min-width: 1201px) {
+  .main-layout {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .nav-bar {
+    background-color: #916d37;
+    height: 90vh;
+    overflow-y: hidden;
+    text-align: center;
+    width: 250px;
+    border: none;
+  }
+
+  .nav-ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .nav-li {
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-weight: 300;
+  }
+
+  .nav-li-a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+
+  .nav-active {
+    color: rgba(233, 222, 118, 0.932);
+    font-size: 1.2rem;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+  }
+}
+@media (max-width: 600px) {
+  .main-layout {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-bar {
+    background-color: #916d37;
+    height: 100vh;
+    overflow-y: hidden;
+    text-align: center;
+    margin: 0;
+    width: 105px;
+    border: none;
+  }
+
+  .nav-ul {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .nav-li {
+    list-style: none;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding: 20px;
+    font-weight: 100;
+  }
+
+  .nav-li-a {
+    color: white;
+    font-size: 0.75em;
+    text-decoration: none;
+  }
+
+  .nav-active {
+    color: rgba(233, 222, 118, 0.932);
+    transition: all 0.3s ease-out;
+    font-size: 0.75em;
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+  .main-layout {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-bar {
+    background-color: #916d37;
+    height: 100vh;
+    overflow-y: hidden;
+    text-align: center;
+    margin: 0;
+    width: 200px;
+    border: none;
+  }
+
+  .nav-ul {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .nav-li {
+    list-style: none;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding: 20px;
+    font-weight: 100;
+  }
+
+  .nav-li-a {
+    color: white;
+    font-size: 1.15em;
+    text-decoration: none;
+  }
+
+  .nav-active {
+    color: rgba(233, 222, 118, 0.932);
+    transition: all 0.3s ease-out;
+    font-size: 0.75em;
+    text-decoration: none;
+  }
+}
