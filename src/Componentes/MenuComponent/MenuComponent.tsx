@@ -2,13 +2,12 @@ import { MenuProps } from "../../interfaces/interfaces";
 import { useShow } from "../../hooks/useShow";
 import { DishDescription } from "../DishDescription/DishDescription";
 import "../../Componentes/MenuComponent/MenuComponent.css";
-import { Main } from "../Main/Main";
 
 export const MenuComponent = (props: MenuProps) => {
   const { hideInfo, indexArray, showInfo, setHideInfo } = useShow();
 
   return (
-    <div className="menu-layout">
+    <div className="main-layout">
       <ul>
         {props.list.map((prop, index) => (
           <li className="li" key={index}>
@@ -25,7 +24,6 @@ export const MenuComponent = (props: MenuProps) => {
           setState={setHideInfo}
         />
       )}
-      {!hideInfo && <Main />}
     </div>
   );
 };
