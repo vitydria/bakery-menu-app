@@ -8,7 +8,7 @@
   }
 
   .nav-bar {
-    background-color: #916d37;
+    background-color: #61380c;
     height: 90vh;
     overflow-y: hidden;
     text-align: center;
@@ -36,6 +36,8 @@
 
   .nav-li-a {
     color: white;
+    font-family: "Poiret One";
+    font-weight: 700;
     font-size: 1.2rem;
     text-decoration: none;
   }
@@ -43,6 +45,8 @@
   .nav-active {
     color: rgba(233, 222, 118, 0.932);
     font-size: 1.2rem;
+    font-family: "Poiret One";
+
     transition: all 0.3s ease-out;
     text-decoration: none;
   }
@@ -54,7 +58,7 @@
   }
 
   .nav-bar {
-    background-color: #916d37;
+    background-color: #61380c;
     height: 100vh;
     overflow-y: hidden;
     text-align: center;
@@ -100,7 +104,7 @@
   }
 
   .nav-bar {
-    background-color: #916d37;
+    background-color: #61380c;
     height: 100vh;
     overflow-y: hidden;
     text-align: center;

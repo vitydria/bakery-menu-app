@@ -1,11 +1,9 @@
 @media (min-width: 1201px) {
   .button {
     font-family: "Poiret One";
-    font-style: oblique;
-    font-weight: 900;
     background-color: #ffffff00;
     border: none;
-    color: rgb(219, 212, 206);
+    color: #fff8f0;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;

@@ -4,8 +4,8 @@
     letter-spacing: 3px;
     text-align: center;
     margin: none;
-    background: #ffffffe1;
-    color: rgb(165, 112, 15);
+    background-color: #e36414;
+    color: #ffffff;
     font-size: 30px;
   }
 }
@@ -15,8 +15,8 @@
     letter-spacing: 0.5px;
     text-align: center;
     margin: none;
-    background: #ffffffe1;
-    color: rgb(165, 112, 15);
+    background: #ffefcb;
+    color: #ac814e;
     font-size: 25px;
   }
 }
@@ -27,8 +27,8 @@
     letter-spacing: 0.5px;
     text-align: center;
     margin: none;
-    background: #ffffffe1;
-    color: rgb(165, 112, 15);
+    background: #ffefcb;
+    color: #ac814e;
     font-size: 25px;
   }
 }
