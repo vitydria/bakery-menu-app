@@ -9,10 +9,13 @@ export const MenuComponent = (props: MenuProps) => {
 
   return (
     <div className="main-layout">
-      <ul>
+      <ul className="ul-component">
         {props.list.map((prop, index) => (
           <li className="li" key={index}>
-            <button className="button" onClick={() => showInfo(index)}>
+            <button
+              className="button draw-border"
+              onClick={() => showInfo(index)}
+            >
               <i className="fas fa-cookie-bite"></i> {prop.name}
             </button>
           </li>

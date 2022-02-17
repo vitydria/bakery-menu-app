@@ -1,16 +1,62 @@
 @media (min-width: 1201px) {
   .button {
-    font-family: "Poiret One";
+    font-family: "Roboto";
+    font-weight: 100;
+    font-style: italic;
     background-color: #ffffff00;
     border: none;
+    cursor: pointer;
     color: #fff8f0;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 700;
     margin: 4px 2px;
     cursor: pointer;
+  }
+
+  .draw-border {
+    /*  box-shadow: inset 0 0 0 4px;
+    transition: color 0.25s 0.0833333333s; */
+    position: relative;
+  }
+  .draw-border::before,
+  .draw-border::after {
+    border: 0 solid transparent;
+    box-sizing: border-box;
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .draw-border::before {
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+  }
+  .draw-border::after {
+    border-top-width: 1px;
+    border-right-width: 1px;
+  }
+  .draw-border:hover {
+    color: #f3c165;
+  }
+  .draw-border:hover::before,
+  .draw-border:hover::after {
+    border-color: #fbca6e;
+    transition: border-color 0s, width 0.25s, height 0.25s;
+    width: 100%;
+    height: 100%;
+  }
+  .draw-border:hover::before {
+    transition-delay: 0s, 0s, 0.25s;
+  }
+  .draw-border:hover::after {
+    transition-delay: 0s, 0.25s, 0s;
   }
 
   .menu-layout {
@@ -23,20 +69,66 @@
   }
 }
 @media (max-width: 600px) {
+  .ul-component {
+    padding-left: 0px;
+    padding-top: 20px;
+  }
+
   .button {
-    font-family: "Poiret One";
-    font-style: oblique;
-    font-weight: ligther;
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 700;
     background-color: #ffffff00;
     border: none;
     color: #fff8f0;
-    padding: 0;
+    padding: 9px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
     margin: 0;
     cursor: pointer;
+  }
+  .draw-border {
+    /*  box-shadow: inset 0 0 0 4px;
+    transition: color 0.25s 0.0833333333s; */
+    position: relative;
+  }
+  .draw-border::before,
+  .draw-border::after {
+    border: 0 solid transparent;
+    box-sizing: border-box;
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .draw-border::before {
+    border-bottom-width: 0.7px;
+    border-left-width: 0.7px;
+  }
+  .draw-border::after {
+    border-top-width: 0.7px;
+    border-right-width: 0.7px;
+  }
+  .draw-border:hover {
+    color: #f3c165;
+  }
+  .draw-border:hover::before,
+  .draw-border:hover::after {
+    border-color: #fbca6e;
+    transition: border-color 0s, width 0.25s, height 0.25s;
+    width: 100%;
+    height: 100%;
+  }
+  .draw-border:hover::before {
+    transition-delay: 0s, 0s, 0.25s;
+  }
+  .draw-border:hover::after {
+    transition-delay: 0s, 0.25s, 0s;
   }
 
   .menu-layout {
@@ -49,42 +141,80 @@
   h1 {
     font-size: 5px;
   }
-
-  ul {
-    padding: 0;
-    margin: 0px auto;
-  }
 }
 
 @media (min-width: 601px) and (max-width: 1200px) {
   .button {
-    font-family: "Poiret One";
-    font-style: oblique;
-    font-weight: ligther;
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 700;
     background-color: #ffffff00;
     border: none;
     color: #fff8f0;
-    padding: 0;
+    padding: 12px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 25px;
+    margin: 4px 2px;
+    font-size: 17px;
     margin: 0;
     cursor: pointer;
   }
 
+  .draw-border {
+    /*  box-shadow: inset 0 0 0 4px;
+    transition: color 0.25s 0.0833333333s; */
+    position: relative;
+  }
+  .draw-border::before,
+  .draw-border::after {
+    border: 0 solid transparent;
+    box-sizing: border-box;
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .draw-border::before {
+    border-bottom-width: 0.5px;
+    border-left-width: 0.5px;
+  }
+  .draw-border::after {
+    border-top-width: 1px;
+    border-right-width: 1px;
+  }
+  .draw-border:hover {
+    color: #f3c165;
+  }
+  .draw-border:hover::before,
+  .draw-border:hover::after {
+    border-color: #fbca6e;
+    transition: border-color 0s, width 0.25s, height 0.25s;
+    width: 100%;
+    height: 100%;
+  }
+  .draw-border:hover::before {
+    transition-delay: 0s, 0s, 0.25s;
+  }
+  .draw-border:hover::after {
+    transition-delay: 0s, 0.25s, 0s;
+  }
+
+  .ul-component {
+    padding-left: 0px;
+    padding-top: 20px;
+  }
+
   .menu-layout {
     text-align: center;
-    margin-top: 0;
+    margin-top: 50px;
     width: 100%;
   }
 
   h1 {
     font-size: 5px;
-  }
-
-  ul {
-    padding: 0;
-    margin: 0px auto;
   }
 }

@@ -7,6 +7,10 @@
     margin-left: auto;
   }
 
+  br {
+    display: none;
+  }
+
   .nav-bar {
     background-color: #61380c;
     height: 90vh;
@@ -28,25 +32,26 @@
 
   .nav-li {
     list-style: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    box-shadow: 9px 9px 18px #623d12, -9px -9px 18px #673b0d;
+    border-radius: 17px;
+    padding-top: 15px;
+    width: 100%;
+    padding-bottom: 15px;
     margin-bottom: 10px;
     font-weight: 300;
   }
 
   .nav-li-a {
     color: white;
-    font-family: "Poiret One";
-    font-weight: 700;
+    font-family: "Lobster";
     font-size: 1.2rem;
     text-decoration: none;
   }
 
   .nav-active {
     color: rgba(233, 222, 118, 0.932);
-    font-size: 1.2rem;
-    font-family: "Poiret One";
-
+    font-size: 1rem;
+    font-family: "Lobster";
     transition: all 0.3s ease-out;
     text-decoration: none;
   }
@@ -55,6 +60,7 @@
   .main-layout {
     display: flex;
     flex-direction: row;
+    width: 100%;
   }
 
   .nav-bar {
@@ -72,28 +78,41 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0;
+    padding-top: 20px;
+    padding-left: 0;
   }
 
   .nav-li {
     list-style: none;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding: 20px;
+    box-shadow: 9px 9px 18px #623d12, -9px -9px 18px #673b0d;
+    border-radius: 17px;
+    padding: 15px;
     font-weight: 100;
   }
 
   .nav-li-a {
+    font-family: "Lobster";
     color: white;
-    font-size: 0.75em;
+    font-size: 1.2em;
     text-decoration: none;
+  }
+  br {
+    display: none;
   }
 
   .nav-active {
+    font-family: "Lobster";
     color: rgba(233, 222, 118, 0.932);
     transition: all 0.3s ease-out;
-    font-size: 0.75em;
+    font-size: 1.5em;
     text-decoration: none;
+  }
+  .span-disappear {
+    display: none;
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
   }
 }
 
@@ -118,12 +137,14 @@
     align-items: center;
     display: flex;
     flex-direction: column;
+    padding-left: 0px;
     justify-content: center;
-    padding: 0;
   }
 
   .nav-li {
     list-style: none;
+    box-shadow: 9px 9px 18px #623d12, -9px -9px 18px #673b0d;
+    border-radius: 17px;
     padding-top: 1px;
     padding-bottom: 1px;
     padding: 20px;
@@ -133,13 +154,15 @@
   .nav-li-a {
     color: white;
     font-size: 1.15em;
+    font-family: "Lobster";
     text-decoration: none;
   }
 
   .nav-active {
+    font-family: "Lobster";
     color: rgba(233, 222, 118, 0.932);
     transition: all 0.3s ease-out;
-    font-size: 0.75em;
+    font-size: 0.95em;
     text-decoration: none;
   }
 }

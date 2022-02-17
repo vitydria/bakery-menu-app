@@ -17,7 +17,8 @@ export const MenuFrame = (): JSX.Element => {
                   isActive ? "nav-active" : "nav-li-a"
                 }
               >
-                Desayunos <i className="fas fa-bread-slice"></i>
+                <span className="span-disappear">Desayunos</span> <br></br>
+                <i className="fas fa-bread-slice"></i>
               </NavLink>
             </li>
             <li className="nav-li">
@@ -27,7 +28,8 @@ export const MenuFrame = (): JSX.Element => {
                   isActive ? "nav-active" : "nav-li-a"
                 }
               >
-                Almuerzos <i className="fas fa-utensils"></i>
+                <span className="span-disappear">Almuerzos</span> <br></br>
+                <i className="fas fa-utensils"></i>
               </NavLink>
             </li>
             <li className="nav-li">
@@ -37,7 +39,8 @@ export const MenuFrame = (): JSX.Element => {
                   isActive ? "nav-active" : "nav-li-a"
                 }
               >
-                Luncheria <i className="fas fa-hamburger"></i>
+                <span className="span-disappear">Luncheria</span> <br></br>
+                <i className="fas fa-hamburger"></i>
               </NavLink>
             </li>
             <li className="nav-li">
@@ -47,7 +50,9 @@ export const MenuFrame = (): JSX.Element => {
                   isActive ? "nav-active" : "nav-li-a"
                 }
               >
-                Bebidas <i className="fas fa-wine-glass"></i>
+                <span className="span-disappear">Bebidas </span>
+                <br></br>
+                <i className="fas fa-wine-glass"></i>
               </NavLink>
             </li>
           </ul>
