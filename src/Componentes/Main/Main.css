@@ -29,9 +29,14 @@
   .main {
     text-align: center;
     margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    width: 70%;
   }
 
   .h1-main {
@@ -44,8 +49,9 @@
   .img-main {
     width: 200px;
     height: 60px;
-    border-radius: 15%;
     margin-top: 20px;
+    position: relative;
+    top: 200px;
   }
 
   .img-background {
@@ -57,9 +63,13 @@
 @media (min-width: 601px) and (max-width: 1200px) {
   .main {
     text-align: center;
+    width: 70%;
+    height: 65%;
+    background-size: 400px 300px;
+    background-position: center center;
+    background-repeat: no-repeat;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
   }
 
   .h1-main {
@@ -71,7 +81,8 @@
   .img-main {
     width: 300px;
     height: 120px;
-    border-radius: 100%;
+    position: relative;
+    top: 200px;
   }
   .img-background {
     width: 200px;
