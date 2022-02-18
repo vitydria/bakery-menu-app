@@ -1,15 +1,18 @@
 @media (min-width: 1201px) {
   .description {
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
     flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    padding-top: 20px;
+    justify-content: flex-start;
+    padding-top: 25px;
+    width: fit-content;
+    height: 100%;
     font-size: 16px;
   }
   .nav-ul-desc {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -21,10 +24,9 @@
     list-style: none;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-bottom: 10px;
     font-family: "Amatic SC";
     font-weight: bold;
-    color: rgb(95, 57, 8);
+    color: #ffbf00;
     font-weight: 600;
     font-size: 18px;
   }
@@ -61,7 +63,7 @@
   }
 
   .img-description:hover {
-    box-shadow: 0 0 3px 2px rgb(252, 227, 1);
+    box-shadow: 0 0 3px 2px rgb(240, 229, 130);
   }
 }
 
@@ -71,6 +73,7 @@
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
+    height: 100%;
     padding-top: 20px;
     font-size: 16px;
     position: relative;
@@ -92,7 +95,7 @@
     margin-bottom: 5px;
     font-family: "Amatic SC";
     font-weight: bold;
-    color: rgb(95, 57, 8);
+    color: #ffbf00;
     font-weight: 600;
     font-size: 15px;
   }
@@ -101,7 +104,7 @@
     font-size: 2pt;
     font-family: tahoma;
     position: absolute;
-    left: 60%;
+    left: 50%;
     top: 0;
     right: 0;
     bottom: 93%;
@@ -124,7 +127,7 @@
   }
 
   .img-description:hover {
-    box-shadow: 0 0 3px 2px rgba(238, 199, 73, 0.993);
+    box-shadow: 0 0 3px 2px rgb(240, 229, 130);
   }
 }
 
@@ -136,6 +139,7 @@
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
+    height: 100%;
     padding-top: 30px;
     font-size: 16px;
   }
@@ -160,7 +164,7 @@
     margin-bottom: 5px;
     font-family: "Amatic SC";
     font-weight: bold;
-    color: rgb(95, 57, 8);
+    color: #ffbf00;
     font-weight: 600;
     font-size: 18px;
   }
@@ -177,8 +181,8 @@
     position: absolute;
     top: 0;
     right: 0;
-    left: 55%;
-    bottom: 85%;
+    left: 35%;
+    bottom: 88%;
     background-color: rgba(255, 255, 255, 0);
     color: red;
     border-radius: 100%;
@@ -189,12 +193,12 @@
     border-radius: 100%;
     margin-left: auto;
     margin-right: auto;
-    width: 160px;
-    height: 160px;
+    width: 200px;
+    height: 200px;
   }
 
   .img-description:hover {
-    box-shadow: 0 0 3px 2px rgb(252, 227, 1);
+    box-shadow: 0 0 3px 2px rgb(240, 229, 130);
   }
 
   .i-button-size {

@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    height: auto;
     margin-right: auto;
     margin-left: auto;
   }
@@ -12,8 +13,8 @@
   }
 
   .nav-bar {
-    background-color: #61380c;
-    height: 90vh;
+    background-color: snow;
+    height: 99vh;
     overflow-y: hidden;
     text-align: center;
     width: 250px;
@@ -32,7 +33,7 @@
 
   .nav-li {
     list-style: none;
-    box-shadow: 9px 9px 18px #623d12, -9px -9px 18px #673b0d;
+    /* box-shadow: 9px 9px 18px #623d12, -9px -9px 18px #673b0d; */
     border-radius: 17px;
     padding-top: 15px;
     width: 100%;
@@ -42,16 +43,20 @@
   }
 
   .nav-li-a {
-    color: white;
-    font-family: "Lobster";
-    font-size: 1.2rem;
+    color: #fcaf58;
+    font-family: "Roboto";
+    font-weight: 100;
+    font-style: italic;
+    font-size: 1.3rem;
     text-decoration: none;
   }
 
   .nav-active {
-    color: rgba(233, 222, 118, 0.932);
-    font-size: 1rem;
-    font-family: "Lobster";
+    color: #ff8811;
+    font-size: 1.4rem;
+    font-family: "Roboto";
+    font-weight: 100;
+    font-style: italic;
     transition: all 0.3s ease-out;
     text-decoration: none;
   }
@@ -61,15 +66,16 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    height: auto;
   }
 
   .nav-bar {
-    background-color: #61380c;
+    background-color: snow;
     height: 100vh;
     overflow-y: hidden;
     text-align: center;
     margin: 0;
-    width: 105px;
+    width: 75px;
     border: none;
   }
 
@@ -84,15 +90,15 @@
 
   .nav-li {
     list-style: none;
-    box-shadow: 9px 9px 18px #623d12, -9px -9px 18px #673b0d;
     border-radius: 17px;
     padding: 15px;
+    font-family: "Roboto";
     font-weight: 100;
   }
 
   .nav-li-a {
-    font-family: "Lobster";
-    color: white;
+    font-family: "Roboto";
+    color: #fcaf58;
     font-size: 1.2em;
     text-decoration: none;
   }
@@ -101,8 +107,8 @@
   }
 
   .nav-active {
-    font-family: "Lobster";
-    color: rgba(233, 222, 118, 0.932);
+    font-family: "Roboto";
+    color: #ff8811;
     transition: all 0.3s ease-out;
     font-size: 1.5em;
     text-decoration: none;
@@ -121,15 +127,16 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    height: auto;
   }
 
   .nav-bar {
-    background-color: #61380c;
+    background-color: snow;
     height: 100vh;
     overflow-y: hidden;
     text-align: center;
     margin: 0;
-    width: 200px;
+    width: 170px;
     border: none;
   }
 
@@ -143,7 +150,6 @@
 
   .nav-li {
     list-style: none;
-    box-shadow: 9px 9px 18px #623d12, -9px -9px 18px #673b0d;
     border-radius: 17px;
     padding-top: 1px;
     padding-bottom: 1px;
@@ -152,15 +158,15 @@
   }
 
   .nav-li-a {
-    color: white;
+    color: #fcaf58;
     font-size: 1.15em;
-    font-family: "Lobster";
+    font-family: "Roboto";
     text-decoration: none;
   }
 
   .nav-active {
-    font-family: "Lobster";
-    color: rgba(233, 222, 118, 0.932);
+    font-family: "Roboto";
+    color: #ff8811;
     transition: all 0.3s ease-out;
     font-size: 0.95em;
     text-decoration: none;

@@ -4,10 +4,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f8da98;
-  width: auto;
-  height: auto;
-  border: none;
+  background-color: #ff8c42;
+  width: 100%;
+  height: 100%;
+  border: 100%;
   margin: 0;
 }
 
